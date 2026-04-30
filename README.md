@@ -5,13 +5,13 @@ This project is to setup the infrastructure in AWS, which including VPC, ALB, EC
 ├── Jenkinsfile       
 ├── Dockerfile      
 ├── app.py      
-└── terraform/      
-    ├── dev/      
-    ├── test/      
-    ├── perf/      
-    ├── stage/      
-    ├── prod/      
-    └── infra/      
+├── terraform/      
+&emsp;&emsp;├── dev/      
+&emsp;&emsp;├── test/      
+&emsp;&emsp;├── perf/      
+&emsp;&emsp;├── stage/      
+&emsp;&emsp;├── prod/      
+&emsp;&emsp;├── infra/      
 
 app.py, python based Application
 Dockerfile, to build the docker image
