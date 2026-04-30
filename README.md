@@ -3,15 +3,15 @@
 This project is to setup the infrastructure in AWS, which including VPC, ALB, ECS, Redis and S3. It can be deployed to dev/test/perf/stg/prod by Jenkins.
 
 ├── Jenkinsfile       
-├── Dockerfile
-├── app.py
-└── terraform/
-    ├── dev/
-    ├── test/
-    ├── perf/
-    ├── stage/
-    ├── prod/
-    └── infra/
+├── Dockerfile      
+├── app.py      
+└── terraform/      
+    ├── dev/      
+    ├── test/      
+    ├── perf/      
+    ├── stage/      
+    ├── prod/      
+    └── infra/      
 
 app.py, python based Application
 Dockerfile, to build the docker image
